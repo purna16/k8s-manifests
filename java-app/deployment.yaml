@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: spring-boot-app
-        image: docker pull purna16/cloud-backend-k8s:2
+        image: purna16/cloud-backend-k8s
         ports:
         - containerPort: 8080
